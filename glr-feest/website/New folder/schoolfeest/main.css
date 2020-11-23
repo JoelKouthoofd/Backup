@@ -1,0 +1,86 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+        /*ALS je een horizontal scroll wilt moet je overflow
+        aankrijgen in slice inplaats van de body*/
+
+        /*Het hele onderdeel*/
+
+.slice {
+    width: 100%;
+    height: 70vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+        /*Bovenste afbeelding*/
+
+        /*Background size contain kan colliden
+        kies cover als je save wilt zijn*/
+
+    .slice-top {
+        width: 100vw;
+        background-color: red;
+        height: 52%;
+        z-index: -1;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background: url("img/coverbg.jpg")center center fixed;
+        text-align: center;
+    }
+
+        .slice-top h3 {
+            padding-top: 12.5vh;
+            font-weight: 600;
+            color: whitesmoke;
+        }
+
+        /*Verander de .slice-middle als je de schuine balk wilt aanpassen*/
+
+    .slice-middle::after {
+        position: absolute;
+        content: " ";
+        display: block;
+        margin-bottom: 28.5vh;
+        left: -5%;
+        bottom: -10px;
+        transform: rotate(-1.5deg);
+        width: 110%;
+        height: 39vh;
+        z-index: 1;
+        background-color: rgb(20, 21, 49);
+        overflow: hidden;
+    }
+
+    /*Onderste afbeelding*/
+
+    .slice-bottom {
+        width: 100vw;
+        background-color: rgb(20, 21, 49);
+        height: 48%;
+        text-align: center;
+        z-index: 99;
+        position: relative;
+        text-overflow: clip;
+        overflow: hidden;
+    }
+
+        .slice-bottom h4 {
+            font-weight: 600;
+            color: whitesmoke;
+        }
+
+        .slice-bottom p {
+            color: whitesmoke;
+        }
+
+     .slice-button {
+         border: 0.1rem solid white;
+         text-decoration: none;
+         background-color: rgba(0,0,0,0);
+         color: whitesmoke;
+     }

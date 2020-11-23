@@ -1,0 +1,211 @@
+$fontroboto : 'Roboto Slab', serif;
+$fontraleway : 'Raleway', sans-serif;
+$white : #fff;
+$blauw : #5A9FDA;
+$groen : #62BE47;
+
+body{
+    background-color: #EEE9E9;
+    font-family: $fontraleway;
+}
+
+.fontblue{
+    color: $blauw;
+}
+
+.fontgreen{
+    color: $groen;
+}
+
+.fontwhite{
+    color: $white;
+}
+
+.gecko {
+    font-family: 'Gecko Lunch';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bebas {
+    font-family: 'Bebas';
+    font-weight: normal;
+    font-style: normal;
+}
+
+#timer{
+    font-size: 3rem;
+}
+
+.headerimg-opacity{
+    opacity: 0.6;
+}
+
+.bg-blue{
+    background-color: $blauw;
+}
+
+@media (max-width: 576px) {
+   .logonav{
+        height: 100px;
+        width: 95.69px;
+    } 
+    .navbar{
+        padding: 0px;
+    }
+    .navbar-collapse{
+        padding-left: 1rem;
+        background-color: $groen;
+    }
+    a.nav-link{
+        color: $white!important;
+    }
+}
+@media (min-width: 576px) {
+    .logonav{
+        height: 100px;
+        width: 95.69px;
+    } 
+    .navbar{
+        padding: 0px;
+    }
+    .navbar-collapse{
+        padding-left: 1rem;
+        background-color: $groen;
+    }
+    a.nav-link{
+        color: $white!important;
+    }
+}
+@media (min-width: 768px) {
+    .logonav{
+        height: 75px;
+        width: 71.77px;
+    } 
+    .navbar{
+        padding: .5rem 1rem;
+    }
+    .md-align-items-end{
+        -ms-flex-align: end!important;
+        align-items: flex-end!important;
+    }
+    a.nav-link{
+        color: rgba(0,0,0,.5)!important;
+    }
+}
+@media (min-width: 992px) {
+    .mt-xl-min6{
+        margin-top: -6rem;
+    }
+    .mt-xl-min7{
+        margin-top: -7rem;
+    }
+    .xl-float-right{
+        float: right;
+    }
+    .logonav{
+    height: 193px;
+    width: 185px;
+    } 
+    .md-align-items-end{
+        -ms-flex-align: end!important;
+        align-items: baseline;
+    }
+}
+@media (min-width: 1200px) {
+   
+}
+
+a.btn{
+    color: $white!important;
+}
+
+.btn-summer-blue { 
+  color: $white; 
+  background-color: $blauw; 
+  border-radius: 100rem;
+  padding: 3px 30px 3px 30px!important;
+} 
+ 
+.btn-summer-blue:hover, 
+.btn-summer-blue:focus, 
+.btn-summer-blue:active, 
+.btn-summer-blue.active, 
+.open .dropdown-toggle.btn-summer-blue { 
+  color: $white; 
+  background-color: $groen; 
+} 
+ 
+.btn-summer-blue:active, 
+.btn-summer-blue.active, 
+.open .dropdown-toggle.btn-summer-blue { 
+  background-image: none; 
+} 
+ 
+.btn-summer-blue.disabled, 
+.btn-summer-blue[disabled], 
+fieldset[disabled] .btn-summer-blue, 
+.btn-summer-blue.disabled:hover, 
+.btn-summer-blue[disabled]:hover, 
+fieldset[disabled] .btn-summer-blue:hover, 
+.btn-summer-blue.disabled:focus, 
+.btn-summer-blue[disabled]:focus, 
+fieldset[disabled] .btn-summer-blue:focus, 
+.btn-summer-blue.disabled:active, 
+.btn-summer-blue[disabled]:active, 
+fieldset[disabled] .btn-summer-blue:active, 
+.btn-summer-blue.disabled.active, 
+.btn-summer-blue[disabled].active, 
+fieldset[disabled] .btn-summer-blue.active { 
+  background-color: $blauw; 
+} 
+ 
+.btn-summer-blue .badge { 
+  color: $blauw; 
+  background-color: $white; 
+}
+
+.btn-summer-green { 
+  color: $white; 
+  background-color: $groen; 
+  border-radius: 100rem;
+  padding: 3px 30px 3px 30px!important;
+} 
+ 
+.btn-summer-green:hover, 
+.btn-summer-green:focus, 
+.btn-summer-green:active, 
+.btn-summer-green.active, 
+.open .dropdown-toggle.btn-summer-green { 
+  color: $white; 
+  background-color: $blauw; 
+} 
+ 
+.btn-summer-green:active, 
+.btn-summer-green.active, 
+.open .dropdown-toggle.btn-summer-green { 
+  background-image: none; 
+} 
+ 
+.btn-summer-green.disabled, 
+.btn-summer-green[disabled], 
+fieldset[disabled] .btn-summer-green, 
+.btn-summer-green.disabled:hover, 
+.btn-summer-green[disabled]:hover, 
+fieldset[disabled] .btn-summer-green:hover, 
+.btn-summer-green.disabled:focus, 
+.btn-summer-green[disabled]:focus, 
+fieldset[disabled] .btn-summer-green:focus, 
+.btn-summer-green.disabled:active, 
+.btn-summer-green[disabled]:active, 
+fieldset[disabled] .btn-summer-green:active, 
+.btn-summer-green.disabled.active, 
+.btn-summer-green[disabled].active, 
+fieldset[disabled] .btn-summer-green.active { 
+  background-color: $groen; 
+} 
+ 
+.btn-summer-green .badge { 
+  color: $groen; 
+  background-color: $white; 
+}

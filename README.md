@@ -1,6 +1,6 @@
 # Backup
 
-Schoolfeest branche is de schoolfeest opdracht waar ik over had uitgelegd.
+Schoolfeest branche is de schoolfeest opdracht waar ik over had uitgelegd. (mijn deel was - QR code generator en site opmaak/css)
 
 Back2Vervang was een vervang opdracht die ik moest maken waar veel gebruik werd gemaakt van PDO voor beveiliging.
 

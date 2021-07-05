@@ -5,3 +5,5 @@ Schoolfeest branche is het schoolfeest opdracht waar ik met mijn klasgenoten aan
 Back2Vervang was een vervang opdracht die ik moest maken waar veel gebruik werd gemaakt van PDO voor beveiliging, php en sql.
 
 Personal Projects spreekt voor zichzelf.
+
+Exam is een map voor versiebeheer van mijn beroepsexamen Mediatechnologie
